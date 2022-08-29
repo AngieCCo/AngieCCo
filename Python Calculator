@@ -1,0 +1,18 @@
+def calculo(num1, num2, math_op):
+
+    if math_op == "/":
+        return num1 / num2
+    elif math_op == "+":
+        return num1 + num2
+    elif math_op == "-":
+        return num1 - num2
+    elif math_op == "*":
+        return num1 * num2
+    elif math_op == "%":
+        return num1 % num2
+    else:
+        print("Math symbol not recognized.")
+
+
+print(calculo(16, 3, "+"))
+
